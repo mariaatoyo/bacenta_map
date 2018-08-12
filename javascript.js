@@ -112,5 +112,104 @@ function initMap() {
     google.maps.event.addListener(marker, 'click', function() {
         window.location.href = "newark-point";
     });
+    
+        var marker = new google.maps.Marker({
+        position: {
+            lat: 52.611062,
+            lng: -1.129522
+        },
+        map: map
+    });
+    google.maps.event.addListener(marker, 'click', function() {
+        window.location.href = "burn-street";
+    });
+    
+         var marker = new google.maps.Marker({
+        position: {
+            lat: 52.630546,
+            lng: -1.147296
+        },
+        map: map
+    });
+    google.maps.event.addListener(marker, 'click', function() {
+        window.location.href = "10-narborough-road";
+    });
+    
+             var marker = new google.maps.Marker({
+        position: {
+            lat: 52.638650,
+            lng: -1.136913
+        },
+        map: map
+    });
+    google.maps.event.addListener(marker, 'click', function() {
+        window.location.href = "100-vaughn-way";
+    });
+    
+             var marker = new google.maps.Marker({
+        position: {
+            lat: 52.631047,
+            lng: -1.144807
+        },
+        map: map
+    });
+    google.maps.event.addListener(marker, 'click', function() {
+        window.location.href = "11-bede-street";
+    });
+    
+              var marker = new google.maps.Marker({
+        position: {
+            lat: 52.624728,
+            lng: -1.138271
+        },
+        map: map
+    });
+    google.maps.event.addListener(marker, 'click', function() {
+        window.location.href = "11-douglas-walnut";
+    });
+    
+              var marker = new google.maps.Marker({
+        position: {
+            lat: 52.624728,
+            lng: -1.138271
+        },
+        map: map
+    });
+    google.maps.event.addListener(marker, 'click', function() {
+        window.location.href = "11-dane-street";
+    });
+    
+                var marker = new google.maps.Marker({
+        position: {
+            lat: 52.634114,
+            lng: -1.128490
+        },
+        map: map
+    });
+    google.maps.event.addListener(marker, 'click', function() {
+        window.location.href = "120-charles-street";
+    });
+    
+               var marker = new google.maps.Marker({
+        position: {
+            lat: 52.623810,
+            lng: -1.218343
+        },
+        map: map
+    });
+    google.maps.event.addListener(marker, 'click', function() {
+        window.location.href = "14-kirloe-avenue";
+    });
+    
+              var marker = new google.maps.Marker({
+        position: {
+            lat: 52.634016,
+            lng: -1.138960
+        },
+        map: map
+    });
+    google.maps.event.addListener(marker, 'click', function() {
+        window.location.href = "21-careys-close";
+    });
 
 }
