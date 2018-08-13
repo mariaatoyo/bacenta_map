@@ -24,6 +24,17 @@ function initMap() {
     google.maps.event.addListener(marker, 'click', function() {
         window.location.href = "code.html";
     });
+    
+     var marker = new google.maps.Marker({
+        position: {
+            lat: 52.6033559,
+            lng: -1.155743
+        },
+        map: map
+    });
+    google.maps.event.addListener(marker, 'click', function() {
+        window.location.href = "ben-russle-court";
+    });
 
     var marker = new google.maps.Marker({
         position: {
@@ -31,9 +42,9 @@ function initMap() {
             lng: -1.1411
         },
         map: map
-    });
+    }); //filbert village
     google.maps.event.addListener(marker, 'click', function() {
-        window.location.href = "filbert.html";
+        window.location.href = 'https://docs.google.com/spreadsheets/d/14TOGB-xeacO0ryZWEkiHam15MnITswm3T-TzmtZIf7w/edit#gid=1259102272';
     });
 
     var marker = new google.maps.Marker({
@@ -210,6 +221,171 @@ function initMap() {
     });
     google.maps.event.addListener(marker, 'click', function() {
         window.location.href = "21-careys-close";
+    });
+    
+             var marker = new google.maps.Marker({
+        position: {
+            lat: 52.579252,
+            lng: -1.034293
+        },
+        map: map
+    });
+    google.maps.event.addListener(marker, 'click', function() {
+        window.location.href = "21-heron-street";
+    });
+    
+             var marker = new google.maps.Marker({
+        position: {
+            lat: 52.635246,
+            lng: -1.147677
+        },
+        map: map
+    });
+    google.maps.event.addListener(marker, 'click', function() {
+        window.location.href = "22-rivers-street";
+    });
+    
+            var marker = new google.maps.Marker({
+        position: {
+            lat: 52.624101,
+            lng: -1.156651
+        },
+        map: map
+    });
+    google.maps.event.addListener(marker, 'click', function() {
+        window.location.href = "257-fosse-road-south";
+    });
+    
+          var marker = new google.maps.Marker({
+        position: {
+            lat: 52.628067,
+            lng: -1.151255
+        },
+        map: map
+    });
+    google.maps.event.addListener(marker, 'click', function() {
+        window.location.href = "27-harrow-road";
+    });
+    
+         var marker = new google.maps.Marker({
+        position: {
+            lat: 52.597844,
+            lng: -1.160903
+        },
+        map: map
+    });
+    google.maps.event.addListener(marker, 'click', function() {
+        window.location.href = "28-highgrove-crescent";
+    });
+    
+        var marker = new google.maps.Marker({
+        position: {
+            lat: 52.631537,
+            lng: -1.051682
+        },
+        map: map
+    });
+    google.maps.event.addListener(marker, 'click', function() {
+        window.location.href = "29-thurnby-lodge";
+    });
+    
+      var marker = new google.maps.Marker({
+        position: {
+            lat: 52.926038,
+            lng: -1.281461
+        },
+        map: map
+    });
+    google.maps.event.addListener(marker, 'click', function() {
+        window.location.href = "3-wellington-street";
+    });
+    
+          var marker = new google.maps.Marker({
+        position: {
+            lat: 52.63333,
+            lng: -1.13333
+        },
+        map: map
+    });
+    google.maps.event.addListener(marker, 'click', function() {
+        window.location.href = "32-tarbert-walk";
+    });
+    
+         var marker = new google.maps.Marker({
+        position: {
+            lat: 52.627468,
+            lng: -1.15081
+        },
+        map: map
+    });
+    google.maps.event.addListener(marker, 'click', function() {
+        window.location.href = "36-barclays-street";
+    });
+    
+         var marker = new google.maps.Marker({
+        position: {
+            lat: 52.626617,
+            lng: -1.128972
+        },
+        map: map
+    });
+    google.maps.event.addListener(marker, 'click', function() {
+        window.location.href = "37-lower-hastings-street";
+    });
+    
+         var marker = new google.maps.Marker({
+        position: {
+            lat: 52.595603,
+            lng: -1.120102
+        },
+        map: map
+    });
+    google.maps.event.addListener(marker, 'click', function() {
+        window.location.href = "41-bradgate-drive";
+    });
+    
+        var marker = new google.maps.Marker({
+        position: {
+            lat: 52.626792,
+            lng: -1.193755
+        },
+        map: map
+    });
+    google.maps.event.addListener(marker, 'click', function() {
+        window.location.href = "44-gunthorpe";
+    });
+    
+        var marker = new google.maps.Marker({
+        position: {
+            lat: 52.623546,
+            lng: -1.151184
+        },
+        map: map
+    });
+    google.maps.event.addListener(marker, 'click', function() {
+        window.location.href = "64-eastleigh-road";
+    });
+    
+        var marker = new google.maps.Marker({
+        position: {
+            lat: 52.634052,
+            lng: -1.142254
+        },
+        map: map
+    });
+    google.maps.event.addListener(marker, 'click', function() {
+        window.location.href = "57-bath-lane";
+    });
+    
+        var marker = new google.maps.Marker({
+        position: {
+            lat: 52.634109,
+            lng: -1.142311
+        },
+        map: map
+    });
+    google.maps.event.addListener(marker, 'click', function() {
+        window.location.href = "95-bath-lane";
     });
 
 }
