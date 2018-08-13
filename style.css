@@ -2,3 +2,16 @@
     height: 600px;
     width: 100%;
 }
+
+#firstHeading{
+    color:#800020; 
+}
+
+#bacdesc{
+    margin-left: 10px;
+    float:right; 
+}
+
+#b_image{
+    padding-top: 8px;
+}

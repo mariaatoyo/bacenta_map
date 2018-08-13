@@ -13,17 +13,43 @@ function initMap() {
     var map = new google.maps.Map(document.getElementById('map'), options);
 
     //MARKERS
-    var marker = new google.maps.Marker({
+    var markers = new google.maps.Marker({
         position: {
             lat: 52.6287,
             lng: -1.1473
         },
-        map: map,
-    });
-    //Markers clickable and linked to pages
-    google.maps.event.addListener(marker, 'click', function() {
-        window.location.href = "code.html";
-    });
+     icon: {
+            path: google.maps.SymbolPath.CIRCLE,
+            scale: 10
+          },
+          draggable: true,
+          map: map
+        });
+     var contentStrings = '<div id="content">'+
+            '<div id="siteNotice">'+
+            '</div>'+
+            '<h1 id="firstHeading" class="firstHeading">Code Bacenta</h1>'+
+            '<div id="bodyContent">'+
+            '<img id ="b_image" src="B_Leader2.jpeg" alt="Smiley face" width="50" height="50">'+
+            '<p id="bacdesc"><b>Name Of Bacenta Leader : Anita Dzere</br> Name Of Center Leader : Daniel Nyirenda<br> Number Of People In Bacenta : 10</b></p>'+
+            '<p>Bacenta Data: <a href="https://docs.google.com/spreadsheets/d/14TOGB-xeacO0ryZWEkiHam15MnITswm3T-TzmtZIf7w/edit#gid=1259102272">'+
+            'Google Sheets Data</a> '+
+            '</p>'+
+            '</div>'+
+            '</div>';
+
+        var infowindows = new google.maps.InfoWindow({
+          content: contentStrings
+        });
+
+        markers.addListener('click', function() {
+          infowindows.open(map, markers); 
+        });
+    
+          
+    
+   
+
     
      var marker = new google.maps.Marker({
         position: {
@@ -31,21 +57,46 @@ function initMap() {
             lng: -1.155743
         },
         map: map
-    });
+    }); 
+    
     google.maps.event.addListener(marker, 'click', function() {
         window.location.href = "ben-russle-court";
     });
 
+    
+    
     var marker = new google.maps.Marker({
         position: {
             lat: 52.6235,
             lng: -1.1411
         },
         map: map
-    }); //filbert village
-    google.maps.event.addListener(marker, 'click', function() {
-        window.location.href = 'https://docs.google.com/spreadsheets/d/14TOGB-xeacO0ryZWEkiHam15MnITswm3T-TzmtZIf7w/edit#gid=1259102272';
-    });
+    }); 
+
+        var contentStringe = '<div id="content">'+
+            '<div id="siteNotice">'+
+            '</div>'+
+            '<h1 id="firstHeading" class="firstHeading">Filbert Village Bacenta</h1>'+
+            '<div id="bodyContent">'+
+            '<img id ="b_image" src="B_Leader.jpeg" alt="Smiley face" width="50" height="50">'+
+            '<p id="bacdesc"><b>Name Of Bacenta Leader : Chisemble Joy Bwayla</br> Name Of Center Leader : Daniel Nyirenda<br> Number Of People In Bacenta : 10</b></p>'+
+            '<p>Bacenta Data: <a href="https://docs.google.com/spreadsheets/d/14TOGB-xeacO0ryZWEkiHam15MnITswm3T-TzmtZIf7w/edit#gid=1259102272">'+
+            'Google Sheets Data</a> '+
+            '</p>'+
+            '</div>'+
+            '</div>';
+
+        var infowindowe = new google.maps.InfoWindow({
+          content: contentStringe
+        });
+
+        marker.addListener('click', function() {
+          infowindowe.open(map, marker); 
+        });
+    //filbert village
+   // google.maps.event.addListener(marker, 'click', function() {
+     //window.location.href = 'https://docs.google.com/spreadsheets/d/14TOGB-xeacO0ryZWEkiHam15MnITswm3T-TzmtZIf7w/edit#gid=1259102272';
+    //});
 
     var marker = new google.maps.Marker({
         position: {
