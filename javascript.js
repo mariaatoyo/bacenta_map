@@ -13,7 +13,7 @@ function initMap() {
     var map = new google.maps.Map(document.getElementById('map'), options);
 
     //MARKERS
-    var markers = new google.maps.Marker({
+    var code = new google.maps.Marker({
         position: {
             lat: 52.6287,
             lng: -1.1473
@@ -42,8 +42,8 @@ function initMap() {
           content: contentStrings
         });
 
-        markers.addListener('click', function() {
-          infowindows.open(map, markers); 
+        code.addListener('click', function() {
+          infowindows.open(map, code); 
         });
     
           
@@ -65,13 +65,18 @@ function initMap() {
 
     
     
-    var marker = new google.maps.Marker({
+    var filbert = new google.maps.Marker({
         position: {
             lat: 52.6235,
             lng: -1.1411
         },
-        map: map
-    }); 
+     icon: {
+            path: google.maps.SymbolPath.CIRCLE,
+            scale: 10
+          },
+          draggable: true,
+          map: map
+        });
 
         var contentStringe = '<div id="content">'+
             '<div id="siteNotice">'+
@@ -79,7 +84,7 @@ function initMap() {
             '<h1 id="firstHeading" class="firstHeading">Filbert Village Bacenta</h1>'+
             '<div id="bodyContent">'+
             '<img id ="b_image" src="B_Leader.jpeg" alt="Smiley face" width="50" height="50">'+
-            '<p id="bacdesc"><b>Name Of Bacenta Leader : Chisemble Joy Bwayla</br> Name Of Center Leader : Daniel Nyirenda<br> Number Of People In Bacenta : 10</b></p>'+
+            '<p id="bacdesc"><b>Name Of Bacenta Leader : Chisemble Joy Bwayla</br> Name Of Center Leader : Daniel Nyirenda<br> Number Of People In Bacenta : 72</b></p>'+
             '<p>Bacenta Data: <a href="https://docs.google.com/spreadsheets/d/14TOGB-xeacO0ryZWEkiHam15MnITswm3T-TzmtZIf7w/edit#gid=1259102272">'+
             'Google Sheets Data</a> '+
             '</p>'+
@@ -90,8 +95,8 @@ function initMap() {
           content: contentStringe
         });
 
-        marker.addListener('click', function() {
-          infowindowe.open(map, marker); 
+        filbert.addListener('click', function() {
+          infowindowe.open(map, filbert); 
         });
     //filbert village
    // google.maps.event.addListener(marker, 'click', function() {
