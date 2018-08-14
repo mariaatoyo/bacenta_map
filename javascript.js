@@ -20,9 +20,8 @@ function initMap() {
         },
      icon: {
             path: google.maps.SymbolPath.CIRCLE,
-            scale: 10
+            scale: 6
           },
-          draggable: true,
           map: map
         });
      var contentStrings = '<div id="content">'+
@@ -72,9 +71,8 @@ function initMap() {
         },
      icon: {
             path: google.maps.SymbolPath.CIRCLE,
-            scale: 10
+            scale: 6
           },
-          draggable: true,
           map: map
         });
 
