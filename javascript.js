@@ -8,7 +8,7 @@ function initMap() {
             lat: 52.6298,
             lng: -1.1394
         }
-    }
+    };
     //New map
     var map = new google.maps.Map(document.getElementById('map'), options);
 
@@ -27,11 +27,11 @@ function initMap() {
      var contentStrings = '<div id="content">'+
             '<div id="siteNotice">'+
             '</div>'+
-            '<h1 id="firstHeading" class="firstHeading">Code Bacenta</h1>'+
+            '<h1 id="firstHeading" class="firstHeading">Ushers Basonta</h1>'+
             '<div id="bodyContent">'+
-            '<img id ="b_image" src="B_Leader2.jpeg" alt="Smiley face" width="50" height="50">'+
-            '<p id="bacdesc"><b>Name Of Bacenta Leader : Anita Dzere</br> Name Of Center Leader : Daniel Nyirenda<br> Number Of People In Bacenta : 10</b></p>'+
-            '<p>Bacenta Data: <a href="https://docs.google.com/spreadsheets/d/14TOGB-xeacO0ryZWEkiHam15MnITswm3T-TzmtZIf7w/edit#gid=1259102272">'+
+            '<img id ="b_image" src="ushers_basonta.jpeg" alt="Smiley face" width="50" height="50">'+
+            '<p id="bacdesc"><b>Name Of Bacenta Leader : Kwadwo Wireko-Adumatta</br><br> Number Of People In Basonta : 10</b></p>'+
+            '<p>Basonta Data: <a href="https://docs.google.com/spreadsheets/d/14TOGB-xeacO0ryZWEkiHam15MnITswm3T-TzmtZIf7w/edit#gid=1259102272">'+
             'Google Sheets Data</a> '+
             '</p>'+
             '</div>'+
@@ -79,11 +79,11 @@ function initMap() {
         var contentStringe = '<div id="content">'+
             '<div id="siteNotice">'+
             '</div>'+
-            '<h1 id="firstHeading" class="firstHeading">Filbert Village Bacenta</h1>'+
+            '<h1 id="firstHeading" class="firstHeading">Airport Stars Basonta</h1>'+
             '<div id="bodyContent">'+
             '<img id ="b_image" src="B_Leader.jpeg" alt="Smiley face" width="50" height="50">'+
-            '<p id="bacdesc"><b>Name Of Bacenta Leader : Chisemble Joy Bwayla</br> Name Of Center Leader : Daniel Nyirenda<br> Number Of People In Bacenta : 72</b></p>'+
-            '<p>Bacenta Data: <a href="https://docs.google.com/spreadsheets/d/14TOGB-xeacO0ryZWEkiHam15MnITswm3T-TzmtZIf7w/edit#gid=1259102272">'+
+            '<p id="bacdesc"><b>Name Of Basonta Leader : Chisemble Joy Bwayla</br><br> Number Of People In Basonta : 72</b></p>'+
+            '<p>Basonta Data: <a href="https://docs.google.com/spreadsheets/d/14TOGB-xeacO0ryZWEkiHam15MnITswm3T-TzmtZIf7w/edit#gid=1259102272">'+
             'Google Sheets Data</a> '+
             '</p>'+
             '</div>'+
