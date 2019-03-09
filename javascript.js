@@ -29,7 +29,7 @@ function initMap() {
             '</div>'+
             '<h1 id="firstHeading" class="firstHeading">Ushers Basonta</h1>'+
             '<div id="bodyContent">'+
-            '<img id ="b_image" src="ushers_basonta.jpeg" alt="Smiley face" width="50" height="50">'+
+            '<img id ="b_image" src="Ushers_Basonta.jpeg" alt="Smiley face" width="50" height="50">'+
             '<p id="bacdesc"><b>Name Of Basonta Leader : Kwadwo Wireko-Adumatta</br><br> Number Of People In Basonta : 10</b></p>'+
             '<p>Basonta Data: <a href="https://docs.google.com/spreadsheets/d/14TOGB-xeacO0ryZWEkiHam15MnITswm3T-TzmtZIf7w/edit#gid=1259102272">'+
             'Google Sheets Data</a> '+
